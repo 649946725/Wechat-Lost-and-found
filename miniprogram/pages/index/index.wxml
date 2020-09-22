@@ -1,5 +1,5 @@
 <view class="ad">
-	<swiper autoplay="true">
+	<swiper autoplay="true" class="ad-swiper">
 		<swiper-item>
 			<image src="../../images/ad1.jpg" class="ad-img"></image>
 		</swiper-item>
@@ -7,4 +7,47 @@
 			<image src="../../images/ad2.jpg" class="ad-img"></image>
 		</swiper-item>
 	</swiper>
+</view>
+
+<view class="menu">
+	<view class="grid col-3 padding-sm">
+		<view class="padding-sm">
+			<view class="padding radius text-center shadow-blur bg-red">
+				<view class="text-lg">校园卡</view>
+				<view class="margin-top-sm text-Abc">专区
+				</view>
+			</view>
+		</view>
+		<view class="padding-sm">
+			<view class="padding radius text-center shadow-blur bg-orange">
+				<view class="text-lg">学生证</view>
+				<view class="margin-top-sm text-Abc">专区</view>
+			</view>
+		</view>
+		<view class="padding-sm">
+			<view class="padding radius text-center shadow-blur bg-yellow">
+				<view class="text-lg">身份证</view>
+				<view class="margin-top-sm text-Abc">专区</view>
+			</view>
+		</view>
+		<view class="padding-sm">
+			<view class="padding radius text-center shadow-blur bg-olive">
+				<view class="text-lg">贵重物品</view>
+				<view class="margin-top-sm text-Abc">专区</view>
+			</view>
+		</view>
+		<view class="padding-sm">
+			<view class="padding radius text-center shadow-blur bg-green">
+				<view class="text-lg">小物品</view>
+				<view class="margin-top-sm text-Abc">专区</view>
+			</view>
+		</view>
+		<view class="padding-sm">
+			<view class="padding radius text-center shadow-blur bg-cyan">
+				<view class="text-lg">公告通知</view>
+				<view class="margin-top-sm text-Abc">专区</view>
+			</view>
+		</view>
+
+	</view>
 </view>

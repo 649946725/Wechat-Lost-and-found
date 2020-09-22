@@ -1,3 +1,4 @@
+
 <view class="ad">
 	<swiper autoplay="true" class="ad-swiper">
 		<swiper-item>
@@ -56,4 +57,23 @@
 
 <view class="article">
 	
+</view>
+<view class="box"style="position:fixed;bottom:0;width:100%">
+ <view class="cu-bar tabbar margin-bottom-xl bg-white" style="margin-bottom:0;">
+    <view class="action text-green">
+      <view class="cuIcon-homefill"></view> 首页
+    </view>
+  
+    <view class="action text-gray add-action" bindtap="fabu">
+      <button class="cu-btn cuIcon-add bg-green shadow"></button>
+      发布
+    </view>
+ 
+    <view class="action text-gray" bindtap="my">
+      <view class="cuIcon-my">
+       
+      </view>
+      我的
+    </view>
+  </view>
 </view>

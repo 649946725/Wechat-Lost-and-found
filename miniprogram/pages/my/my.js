@@ -1,25 +1,30 @@
 Page({
 
- 
+  /**
+   * 页面的初始数据
+   */
   data: {
     
   },
 
- fabu(e) {
+  index(e) {
     wx.redirectTo({
-      url: '../fabu/fabu',
+      url: '../index/index',
     })
   },
-  my(e) {
+  //跳转发布信息
+  fabu(e) {
     wx.redirectTo({
-      url: '../my/my',
+      url: '../fabu/fabu',
     })
   },
   onLoad: function (options) {
     
   },
 
-  
+  /**
+   * 生命周期函数--监听页面初次渲染完成
+   */
   onReady: function () {
     
   },

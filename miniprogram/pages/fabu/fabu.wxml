@@ -1,0 +1,41 @@
+<view class="ad">
+	<swiper autoplay="true" class="ad-swiper">
+		<swiper-item>
+			<image src="../../images/ad1.jpg" class="ad-img"></image>
+		</swiper-item>
+		<swiper-item>
+			<image src="../../images/ad2.jpg" class="ad-img"></image>
+		</swiper-item>
+		<swiper-item>
+			<image src="../../images/ad3.jpg" class="ad-img"></image>
+		</swiper-item>
+	</swiper>
+</view>
+
+  <view class='nav-list' style="margin-top:60rpx;">
+    <view bindtap="{{item.bindtap}}" class="nav-li bg-{{item.color}}" wx:for="{{elements}}" wx:key>
+      <view class="nav-title">{{item.title}}</view>
+      <view class="nav-name">{{item.name}}</view>
+      <text class='cuIcon-{{item.icon}}'></text>
+    </view>
+  </view>
+  <view class='cu-tabbar-height'></view>
+<view class="box"style="position:fixed;bottom:0;width:100%">
+ <view class="cu-bar tabbar margin-bottom-xl bg-white" style="margin-bottom:0;">
+    <view class="action text-gray" bindtap="index">
+      <view class="cuIcon-homefill"></view> 首页
+    </view>
+  
+    <view class="action text-green add-action" >
+      <button class="cu-btn cuIcon-add bg-green shadow"></button>
+      发布
+    </view>
+ 
+    <view class="action text-gray" bindtap="my">
+      <view class="cuIcon-my">
+       
+      </view>
+      我的
+    </view>
+  </view>
+</view>

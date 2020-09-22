@@ -1,12 +1,12 @@
 .ad-swiper{
-	height: 260rpx;
+	height: 280rpx;
 }
 
 .ad-img{
-	width: 95%;
+	width: 90%;
 	height: 250rpx;
 	border-radius: 30rpx;
-	margin-top: 10rpx;
-	margin-left: 18rpx;
+	margin-top: 30rpx;
+	margin-left: 34rpx;
 }
 

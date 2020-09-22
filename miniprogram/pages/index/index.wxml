@@ -6,6 +6,9 @@
 		<swiper-item>
 			<image src="../../images/ad2.jpg" class="ad-img"></image>
 		</swiper-item>
+		<swiper-item>
+			<image src="../../images/ad3.jpg" class="ad-img"></image>
+		</swiper-item>
 	</swiper>
 </view>
 
@@ -44,10 +47,13 @@
 		</view>
 		<view class="padding-sm">
 			<view class="padding radius text-center shadow-blur bg-cyan">
-				<view class="text-lg">公告通知</view>
+				<view class="text-lg">二手交易</view>
 				<view class="margin-top-sm text-Abc">专区</view>
 			</view>
 		</view>
-
 	</view>
+</view>
+
+<view class="article">
+	
 </view>

@@ -1,0 +1,7 @@
+.ad-img{
+	width: 95%;
+	height: 250rpx;
+	border-radius: 30rpx;
+	margin-top: 10rpx;
+	margin-left: 18rpx;
+}

@@ -1,1 +1,10 @@
-<view>首页</view>
+<view class="ad">
+	<swiper autoplay="true">
+		<swiper-item>
+			<image src="../../images/ad1.jpg" class="ad-img"></image>
+		</swiper-item>
+		<swiper-item>
+			<image src="../../images/ad2.jpg" class="ad-img"></image>
+		</swiper-item>
+	</swiper>
+</view>

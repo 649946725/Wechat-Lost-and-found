@@ -70,18 +70,35 @@
 					"id": -1,
 					"name": "发布信息",
 					"pathName": "pages/fabu/fabu",
+					"query": "",
 					"scene": null
 				},
 				{
 					"id": -1,
 					"name": "我的",
 					"pathName": "pages/my/my",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 3,
+					"name": "填写信息页面",
+					"pathName": "pages/fabu/card/card",
+					"query": "",
 					"scene": null
 				},
 				{
 					"id": -1,
-					"name": "pages/fabu/card/card",
-					"pathName": "pages/fabu/card/card",
+					"name": "展示丢失物品信息",
+					"pathName": "pages/infor/infor",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "物品详情",
+					"pathName": "pages/infor/details/details",
+					"query": "",
 					"scene": null
 				}
 			]

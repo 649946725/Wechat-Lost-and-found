@@ -17,35 +17,36 @@ Page({
       name: 'book',
       color: 'blue',
       icon: 'colorlens',
-      bindtap: 'index'
+      bindtap: 'card'
     },
     {
-      title: '文本',
-      name: 'text',
+      title: '数码类',
+      name: 'digital',
       color: 'purple',
       icon: 'font',
-      bindtap: 'index'
+      bindtap: 'card'
     },
+     {
+      title: '服饰类',
+       name: 'Clothes',
+        color: 'pink',
+        icon: 'btn',
+        bindtap: 'card'
+      },
     {
-      title: '图标 ',
-      name: 'icon',
+      title: '生活用品 ',
+      name: 'daily-user',
       color: 'mauve',
       icon: 'icon',
-      bindtap: 'index'
+      bindtap: 'card'
     },
+   
     {
-      title: '按钮',
-      name: 'button',
-      color: 'pink',
-      icon: 'btn',
-      bindtap: 'index'
-    },
-    {
-      title: '标签',
-      name: 'tag',
+      title: '其它',
+      name: 'other',
       color: 'brown',
       icon: 'tagfill',
-      bindtap: 'index'
+      bindtap: 'card'
     },
   
     ],

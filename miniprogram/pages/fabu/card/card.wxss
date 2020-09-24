@@ -1,1 +1,3 @@
-/* pages/fabu/card/card.wxss */
+.title{
+font-weight: 800rpx;
+}

@@ -1,12 +1,7 @@
-<scroll-view scroll-x class="bg-white nav text-center radius shadow  " style="width:85%;margin:35rpx auto;font-size:36rpx;boder-radius:50rpx;">
-  <view class="cu-item {{index==TabCur?'text-black text-bold':'text-gray text-bold'}}" wx:for="{{text}}" wx:key bindtap="tabSelect" data-id="{{index}}">
-    {{item}}
-  </view>
-</scroll-view>
-   <view class="padding-xl radius shadow-warp bg-white margin-top" style="width:95%;height:1000rpx;margin:30rpx auto;">
+  <view class="padding-xl radius shadow-warp bg-white margin-top" style="width:95%;height:1000rpx;margin:30rpx auto;">
     <!-->信息-->
    	<view class="cu-form-group">
-		<view class="title">您的称呼</view>
+		<view class="title">他的称呼</view>
 		<input placeholder="请输入"></input>
 	</view>
    	<view class="cu-form-group">
@@ -20,7 +15,7 @@
     <!-->信息-->
     	<view class="cu-form-group">
 		<view class="title" wx:if="{{TabCur==0}}">发现时间</view>
-    	<view class="title" wx:else>丢失时间</view>
+    	<view class="title" wx:else>发现时间</view>
 		<picker mode="date" value="{{date}}" start="2020-01-01" end="2025-09-01" bindchange="DateChange">
 			<view class="picker">
 				{{date}}
@@ -57,6 +52,3 @@
 
 
    </view>
-   <view style="width:350rpx;margin:25rpx auto;">
-  <button class="cu-btn round bg-blue shadow" style="width:350rpx;height:90rpx;">提交</button>
-  </view>
